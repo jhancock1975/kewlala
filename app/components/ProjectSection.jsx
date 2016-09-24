@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import TopicItem from 'components/TopicItem';
 import classNames from 'classnames/bind';
-import styles from 'css/components/main-section';
+import styles from 'css/components/project-section';
 
 const cx = classNames.bind(styles);
 
@@ -19,7 +19,7 @@ const ProjectSection = ({ topics, onIncrement, onDecrement, onDestroy }) => {
   });
 
   return (
-    <div className={cx('main-section')}>
+    <div className={cx('project-section')}>
       <h3 className={cx('header')}>Projects</h3>
       <ul className={cx('list')}>{topicItems}</ul>
     </div>

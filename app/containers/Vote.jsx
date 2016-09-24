@@ -20,16 +20,11 @@ class Vote extends Component {
         <EntryBox topic={newTopic}
           onEntryChange={typing}
           onEntrySave={createTopic} />
-        <MainSection topics={topics}
-          onIncrement={incrementCount}
-          onDecrement={decrementCount}
-          onDestroy={destroyTopic} />
-      <MainSection topics={topics}
-          onIncrement={incrementCount}
-          onDecrement={decrementCount}
-          onDestroy={destroyTopic} />
-        /*comment*/
         <ProjectSection topics={topics}
+          onIncrement={incrementCount}
+          onDecrement={decrementCount}
+          onDestroy={destroyTopic} />
+        <MainSection topics={topics}
           onIncrement={incrementCount}
           onDecrement={decrementCount}
           onDestroy={destroyTopic} />
