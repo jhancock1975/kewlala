@@ -14,7 +14,7 @@ const Scoreboard = ({topics}) => {
   });
   return (
     <div className={cx('scoreboard')}>
-      <h3 className={cx('header')}>Vote count</h3>
+      <h3 className={cx('header')}>Vote 數子</h3>
       <ul className={cx('list')}>
         {topicListItems}
       </ul>

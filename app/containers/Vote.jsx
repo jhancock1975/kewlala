@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import classNames from 'classnames/bind';
 import EntryBox from 'components/EntryBox';
 import MainSection from 'components/MainSection';
+import ProjectSection from 'components/ProjectSection';
 import Scoreboard from 'components/Scoreboard';
 import { createTopic, typing, incrementCount,
   decrementCount, destroyTopic, fetchTopics } from 'actions/topics';
@@ -20,6 +21,15 @@ class Vote extends Component {
           onEntryChange={typing}
           onEntrySave={createTopic} />
         <MainSection topics={topics}
+          onIncrement={incrementCount}
+          onDecrement={decrementCount}
+          onDestroy={destroyTopic} />
+      <MainSection topics={topics}
+          onIncrement={incrementCount}
+          onDecrement={decrementCount}
+          onDestroy={destroyTopic} />
+        /*comment*/
+        <ProjectSection topics={topics}
           onIncrement={incrementCount}
           onDecrement={decrementCount}
           onDestroy={destroyTopic} />
