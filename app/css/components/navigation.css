@@ -19,3 +19,11 @@
 .active {
   color: var(--colorDodgerBlue);
 }
+
+.activeLogo {
+  color: var(--colorGreen);
+}
+
+.activeLogo::first-letter{
+  font-size: var(--fontEnormous);
+}
