@@ -13,11 +13,11 @@ const cx = classNames.bind(styles);
 const EntryBox = ({onEntryChange, onEntrySave, topic}) => {
   return (
     <div className={cx('entrybox')}>
-    <h1 className={cx('header')}>Vote for your 最喜歡的 hack idea</h1>
+    <h1 className={cx('header')}>Start a Project</h1>
       <TopicTextInput
         className={cx('input')}
         value={topic}
-        placeholder="Suggest a hackday idea . . ."
+        placeholder="Start a project . . ."
         onEntryChange={onEntryChange}
         onEntrySave={onEntrySave} />
     </div>

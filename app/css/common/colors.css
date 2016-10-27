@@ -13,6 +13,6 @@
   --colorBombay:              #b4bac1;
   --colorCrimson:             #ed193a;
   --colorDarkerCrimson:       color(var(--colorCrimson) blackness(+20%));
-  --colorGreen:               #94ac55
-
+  --colorGreen:               #94ac55;
+  --colorLightPink:           #ffe6e6;  
 }

@@ -3,6 +3,7 @@
 
 .navigation {
   padding: 0 28px;
+  background-color: var(--colorLightPink);
 }
 
 .item {
